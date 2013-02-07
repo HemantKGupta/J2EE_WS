@@ -1,0 +1,1 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><MA:add xmlns:MA="http://localhost:8085/axis/CalculatorWS.jws"><i>10</i><j>20</j></MA:add></soapenv:Body></soapenv:Envelope>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <journal  publisher="IBM developerWorks">
+    <article level="Intermediate" date="January-2004" section="Java Technology">
+        <title>Service Oriented Architecture Frameworks</title>
+        <author>Naveen Balani</author>      </article>
+    <article level="Advanced" date="October-2003" section="Java Technology"> 
+      <title>Advance DAO Programming</title> 
+      <author>Sean Sullivan</author>   </article>
+  <article level="Advanced" date="May-2002" section="Java Technology">
+     <title>Best Practices in EJB Exception Handling</title>
+     <author>Srikanth Shenoy </author>  </article>  
+</journal>
+</catalog>

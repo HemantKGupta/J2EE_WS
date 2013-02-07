@@ -1,0 +1,1 @@
+wsimport -keep http://localhost:8080/Metro-HelloWorld/HelloWorldService?wsdl

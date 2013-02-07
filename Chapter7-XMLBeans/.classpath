@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen_source"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/hgupta/Install/xmlbeans-2.2.0/lib/xbean_xpath.jar"/>
+	<classpathentry kind="lib" path="C:/hgupta/Install/xmlbeans-2.2.0/lib/jsr173_1.0_api.jar"/>
+	<classpathentry kind="lib" path="C:/hgupta/Install/xmlbeans-2.2.0/lib/xbean.jar"/>
+	<classpathentry kind="lib" path="C:/hgupta/Install/saxonb8-1-1/saxon8.jar"/>
+	<classpathentry kind="lib" path="gen_source/xmltypes.jar"/>
+	<classpathentry kind="output" path="build"/>
+</classpath>
