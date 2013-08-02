@@ -3,7 +3,10 @@ package demo.restful.client;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
+import org.apache.cxf.jaxrs.JAXRSBindingFactory;
 import org.apache.cxf.jaxrs.JAXRSServerFactoryBean;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -21,6 +24,9 @@ public class CategoryServerStart {
 	    
 	    CategoryService categoryService = (CategoryService)
 		appContext.getBean("categoryService");
+	    
+	    List<Object> l = new ArrayList<>();
+	    l.add(categoryService);
 		
 		// Service instance
 
@@ -28,7 +34,11 @@ public class CategoryServerStart {
 
 		restServer.setResourceClasses(Category.class);
 
-		restServer.setServiceBeans(categoryService);
+		//restServer.setServiceBeans(categoryService);
+		
+		restServer.setServiceBeans(l);
+		
+		restServer.setBindingId(JAXRSBindingFactory.JAXRS_BINDING_ID);
 
 		restServer.setAddress("http://localhost:9000/");
 
