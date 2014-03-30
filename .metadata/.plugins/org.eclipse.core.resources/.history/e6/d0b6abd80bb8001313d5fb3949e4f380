@@ -1,0 +1,21 @@
+package com.hkg.test;
+
+@Path("helloworld")
+public class HelloWorld {
+    @Context
+    private UriInfo context;
+ 
+    /** Creates a new instance of HelloWorld */
+    public HelloWorld() {
+    }
+ 
+    /**
+     * Retrieves representation of an instance of helloWorld.HelloWorld
+     * @return an instance of java.lang.String
+     */
+    @GET
+    @Produces("text/html")
+    public String getHtml() {
+        return "<html lang=\"en\"><body><h1>Hello, World!!</h1></body></html>";
+    }
+}

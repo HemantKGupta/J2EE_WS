@@ -56,7 +56,7 @@ public class TodosResource {
   
   
   // retuns the number of todos
-  // Use http://localhost:8080/de.vogella.jersey.todo/rest/todos/count
+  // Use http://localhost:8080/rest/todos/count
   // to get the total number of records
   @GET
   @Path("count")
@@ -85,7 +85,7 @@ public class TodosResource {
   
   // Defines that the next path parameter after todos is
   // treated as a parameter and passed to the TodoResources
-  // Allows to type http://localhost:8080/de.vogella.jersey.todo/rest/todos/1
+  // Allows to type http://localhost:8080/rest/todos/1
   // 1 will be treaded as parameter todo and passed to TodoResource
   @Path("{todo}")
   public TodoResource getTodo(@PathParam("todo") String id) {
